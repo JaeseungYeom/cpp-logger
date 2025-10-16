@@ -144,7 +144,7 @@ function(cpp_logger_install_headers public_headers current_dir)
         get_filename_component(header_directory_path "${header_file_path}" DIRECTORY)
         install(
                 FILES ${header}
-                DESTINATION "include/${header_directory_path}"
+                DESTINATION "${CPP_LOGGER_INSTALL_INCLUDE_DIR}/${header_directory_path}"
         )
         file(COPY ${header}
                 DESTINATION "${CMAKE_INCLUDE_OUTPUT_DIRECTORY}/${header_directory_path}")
