@@ -1,3 +1,3 @@
 # cpp-logger
 
-A simple C++ logger 0.0.5
+A simple C++ logger 0.0.6
